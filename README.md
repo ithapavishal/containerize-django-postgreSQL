@@ -69,7 +69,7 @@ PostgreSQL data is stored in a named volume (pg_db_vol)
 This ensures data is not lost when containers are stopped or removed
 
 ▶️ Accessing the App
-Open in browser: VM_IP:8000
+Open in browser: 192.168.56.xx:8000
 
 Or using container IP (example):
-curl http://127.0.0.1:8000/
+curl http://192.168.56.xx:8000/
